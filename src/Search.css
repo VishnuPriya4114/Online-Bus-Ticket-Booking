@@ -1,0 +1,87 @@
+*{
+    background-size: 1300px;
+  
+  }
+  .from{
+    padding-left: 25%;
+  }
+  .a{
+    color: white;
+    font-size: medium;
+    margin-left: 23%;
+  }
+  .b{
+    padding-left: 30%;
+  }
+  .c{
+    color: white;
+    font-size: medium;
+    margin-left: 25%;
+  }
+  
+  .calendar {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    
+    .header h1 {
+      margin: 0;
+      font-size: 1.4em;
+    }
+    
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    .weekdays {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .weekday {
+      width: calc(100% / 7);
+      text-align: center;
+    }
+    
+    .days-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+    }
+    
+    .day {
+      text-align: center;
+      padding: 8px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    .empty-day {
+      visibility: hidden;
+    }
+    .but{
+      color:white;
+  
+    }
